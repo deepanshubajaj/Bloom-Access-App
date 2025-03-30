@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Bloom Access",
+    "slug": "bloom-access",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deepanshubajaj.bloomaccess"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.deepanshubajaj.bloomaccess"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.248129688685-r6plt8ir1g0tbokeq45nt87jkt10qr32"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "040a7604-78ae-421b-9cd6-d4514bea2a40"
+      }
+    }
+  }
+}

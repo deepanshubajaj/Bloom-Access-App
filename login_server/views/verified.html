@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verified</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #4CAF50;
+            /* Green background */
+            color: white;
+            text-align: center;
+        }
+
+        /* Content container */
+        .container {
+            max-width: 90%;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #DFF0D8;
+            color: #333;
+        }
+
+        /* Heading */
+        h1 {
+            margin: 20px 0;
+            font-size: 2rem;
+        }
+
+        /* Subheading */
+        p {
+            font-size: 1.2rem;
+        }
+
+        /* Pendulum Animation */
+        .tick-image {
+            margin-top: 20px;
+            max-width: 100px;
+            animation: pendulum 2s infinite ease-in-out;
+            /* Apply pendulum effect */
+        }
+
+        /* Pendulum animation keyframes */
+        @keyframes pendulum {
+            0% {
+                transform: rotate(10deg);
+                /* Starts slightly to the right */
+            }
+
+            50% {
+                transform: rotate(-10deg);
+                /* Swings to the left */
+            }
+
+            100% {
+                transform: rotate(10deg);
+                /* Swings back to the right */
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .tick-image {
+                max-width: 80px;
+                animation: pendulum 2s infinite ease-in-out;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Email has been verified !!</h1>
+        <img src="https://cdn-icons-png.freepik.com/512/716/716225.png" alt="Tick" class="tick-image">
+        <p>You can now proceed in App ...</p>
+    </div>
+
+</body>
+
+</html>
