@@ -1,16 +1,19 @@
-# OSX
-#
+# # OSX
+# #
+# .DS_Store
+
+# # Android/IntelliJ
+# #
+# build/
+# .idea
+# .gradle
+# local.properties
+# *.iml
+# *.hprof
+# .cxx/
+
+# # Bundle artifacts
+# *.jsbundle
+
+# Required for now
 .DS_Store
-
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
-*.hprof
-.cxx/
-
-# Bundle artifacts
-*.jsbundle
