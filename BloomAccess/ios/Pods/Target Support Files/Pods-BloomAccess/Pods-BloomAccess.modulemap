@@ -1,6 +1,0 @@
-module Pods_BloomAccess {
-  umbrella header "Pods-BloomAccess-umbrella.h"
-
-  export *
-  module * { export * }
-}
